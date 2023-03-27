@@ -1,0 +1,85 @@
+<!-- home page  -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!--link fontawsome-->
+  <script src="https://kit.fontawesome.com/14097a442a.js" crossorigin="anonymous"></script>
+
+  <!--link bootstrap css-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"crossorigin="anonymous" />
+
+  <!--link css-->
+  <link rel="stylesheet" href="style.css">
+
+
+  <title>SuperHero Hunter/Home</title>
+
+</head>
+
+<body>
+  <div>
+
+
+    <!--navbar-->
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Superhero Hunter </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <div class="d-flex flex ">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"><i class="fa-solid fa-house fa-xl"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index3.html"><i class="fa-solid fa-heart fa-2xl" style="color: #ec0914;"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    
+
+    <!--main-->
+    <div class="container">
+      <!--search bar-->
+      <div id="search-bar">
+        <div><i class="fa-sharp fa-solid fa-crosshairs" id="search-icon"></i></div>
+        <input type="search" id="my-search" placeholder="⚠️Hunt Your Super Hero's....."
+          onkeyup="showCorrespondingHeros()">
+      </div>
+
+      <!-- text div -->
+      <div class="mt-5 mb-5">
+        <h4 class="text-center"><font color=white><b>Your Superhero's are coming ....</b></font>></h4>
+      </div>
+
+      <!--all searched heros show in this div-->
+      <div id="cards-group">
+      </div>
+    </div>
+
+
+  </div>
+    <!-- link for bootstrap javascript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      crossorigin="anonymous"></script>
+    <!-- link for my javascript code -->
+    <script src="script.js"></script>
+
+    
+</body>
+
+</html>
